@@ -132,3 +132,41 @@ footer {
   text-align: center;
   padding: 20px;
 }
+
+
+.search-box {
+  width: 100%;
+  max-width: 500px;
+  padding: 12px;
+  margin: 2em auto;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1em;
+}
+
+.wiki-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5em;
+  padding: 2em 0;
+}
+
+.wiki-card {
+  background: #fff;
+  padding: 1.5em;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.wiki-card h3 {
+  margin-top: 0;
+  color: #2f5d3d;
+}
+
+.small-hero {
+  background: #dcedc8;
+  padding: 80px 20px;
+  text-align: center;
+}
+
