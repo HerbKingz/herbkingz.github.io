@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Access & Availability | HerbKingz</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .data-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 2em;
+      font-size: 1em;
+    }
+    .data-table th, .data-table td {
+      border: 1px solid #ccc;
+      padding: 0.75em 1em;
+      text-align: left;
+    }
+    .data-table th {
+      background-color: #f4f4f4;
+      color: #2f5d3d;
+    }
+    .in-stock { color: green; font-weight: bold; }
+    .out-of-stock { color: red; font-weight: bold; }
+    .low-stock { color: #ff9900; font-weight: bold; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container header-container">
+      <h1 class="logo">🌿 HerbKingz</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="wiki.html">Wiki</a>
+        <a href="store.html">Store</a>
+        <a href="access.html">Access</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="container">
+    <h2>Partner Clinics</h2>
+    <table class="data-table">
+      <tr><th>Clinic</th><th>Location</th><th>Strains/Products</th><th>Consult Fee</th><th>Notes</th></tr>
+      <tr><td>Releaf Clinic</td><td>London</td><td>Sativex, Epidiolex, Bedrocan</td><td>£99.99</td><td>Home delivery</td></tr>
+      <tr><td>Mamedica</td><td>London</td><td>Flower, Oil, Capsules</td><td>£50–£69</td><td>Mental health focus</td></tr>
+      <tr><td>Curaleaf Clinic</td><td>London</td><td>Oils, Flower, Vape</td><td>£50 + £10/mo</td><td>Repeat ordering</td></tr>
+      <tr><td>Sapphire Clinics</td><td>UK-wide</td><td>Oils, Sprays</td><td>£50+</td><td>NHS-trained doctors</td></tr>
+      <tr><td>LVL Health</td><td>Online</td><td>Flower, Capsules</td><td>£49</td><td>Fast online approval</td></tr>
+      <tr><td>Integro Clinics</td><td>London</td><td>Various imports</td><td>£150 initial</td><td>Specialist-led</td></tr>
+    </table>
+
+    <h2 style="margin-top: 3em;">Dispensing Pharmacies</h2>
+    <table class="data-table">
+      <tr><th>Pharmacy</th><th>Location</th><th>Product</th><th>Price</th><th>Status</th></tr>
+      <tr><td>IPS Pharma</td><td>London</td><td>Adven 10:10 Oil</td><td>£45</td><td><span class="in-stock">In Stock</span></td></tr>
+      <tr><td>Lyphe Dispensary</td><td>Leeds</td><td>Bedrocan Flower</td><td>£85–£139/oz</td><td><span class="low-stock">Limited</span></td></tr>
+      <tr><td>Dispenseroo</td><td>Online</td><td>Kanabo Cartridges</td><td>£40</td><td><span class="out-of-stock">Out</span></td></tr>
+      <tr><td>Curaleaf Dispensary</td><td>Online</td><td>THC Flower 20%</td><td>£99</td><td><span class="in-stock">In Stock</span></td></tr>
+      <tr><td>Mamedica Pharmacy</td><td>London</td><td>Full-spectrum Oil</td><td>£60</td><td><span class="in-stock">In Stock</span></td></tr>
+    </table>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 HerbKingz • All clinic and pharmacy data is reviewed regularly. Confirm availability directly with provider.</p>
+  </footer>
+</body>
+</html>
