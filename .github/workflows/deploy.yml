@@ -27,7 +27,7 @@ jobs:
           npm run build
           npm run export
 
-      - name: Deploy to Pages
+      - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
