@@ -12,5 +12,4 @@ export default function Home() {
   );
 }
 
-// Homepage for Herb Kingz
-Trigger deploy
+
