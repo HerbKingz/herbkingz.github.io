@@ -10,3 +10,24 @@ body { margin: 0; font-family: Arial, sans-serif; background: #f5f5f5; color: #3
 .btn-outline { background: white; border: 2px solid #2b7a0b; color: #2b7a0b; }
 .btn-primary:hover, .btn-outline:hover { opacity: 0.9; }
 footer { text-align: center; margin: 40px 0 20px; color: #666; }
+
+/* style.css */
+body {
+  font-family: Arial, sans-serif;
+  padding: 2rem;
+  background: #f9f9f9;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+h2 {
+  color: #222;
+  margin-bottom: 1rem;
+}
