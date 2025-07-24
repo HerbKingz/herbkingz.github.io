@@ -1,3 +1,3 @@
-body {
-  background-color: lightyellow;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
